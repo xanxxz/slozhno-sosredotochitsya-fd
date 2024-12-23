@@ -139,7 +139,7 @@
 }
 
 .concentration-list__item-title {
-  color: var(--accent-color);
+  color: var(--main-color-title);
   font-size: var(--main-size);
   font-weight: var(--font-weight-bold);
 }

@@ -25,6 +25,7 @@
   --hover-border: #32312D66;
   --color-border: #353430;
   --color-header: #353430;
+  --main-color-title: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -47,5 +48,6 @@
     --hover-border: #32312D66;
     --color-border: #353430;
     --color-header: #353430;
+    --main-color-title: #353430;
   }
 }
