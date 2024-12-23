@@ -3,7 +3,8 @@
   --page-font: 'IBM Plex Mono';
 
   --title-color: #db00ff;
-  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size-dekstop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --title-line-height: 95.7px;
 
   --font-weight-bold: bold;
@@ -18,4 +19,6 @@
   --color-header: #ff0070;
   --footer-shadow: #ff0070;
   --main-color-title: #ff0070;
+
+  --display: initial;
 }

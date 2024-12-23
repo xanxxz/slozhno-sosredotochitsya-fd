@@ -54,6 +54,7 @@
   position: absolute;
   top: -8px;
   right: 19px;
+  display: var(--display);
 }
 
 .decorated-zone .ellipse {
@@ -66,6 +67,7 @@
   position: absolute;
   top: 18px;
   right: 9px;
+  display: var(--display);
 }
 
 /*Меню шапки*/
@@ -109,7 +111,7 @@
 /*заголовок шапки*/
 
 .header__title {
-  font-size: var(--title-size);
+  font-size: var(--title-size-mobile);
   color: var(--title-color);
   font-weight: var(--font-weight-bold);
   line-height: var(--title-line-height);
@@ -258,6 +260,7 @@
 
   .header__title {
     grid-column: span 2;
+    font-size: var(--title-size-dekstop);
   }
 
   .header__text {
@@ -358,12 +361,12 @@
     justify-self: center;
     grid-column: span 2;
     margin-block-start: 1em;
-    margin-inline-start: 1.5em;
+    margin-inline-start: 1.2em;
   }
 
   .header__theme-menu-list {
     flex-direction: row;
-    gap: 24px;
+    gap: 10px;
   }
 
   .header__theme-menu-button:hover {
@@ -371,7 +374,7 @@
   }
 
   .header__title {
-    font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+    font-size: var(--title-size-dekstop);
   }
 
   .header__text {

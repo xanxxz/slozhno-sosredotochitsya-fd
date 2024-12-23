@@ -1,17 +1,10 @@
-.dark-decorate {
-  display: none;
-}
-
-.ellipse {
-  display: none;
-}
-
 :root.theme-light {
   --page-image: url(../images/cover-image-light.png);
   --page-font: 'IBM Plex Mono';
 
   --title-color: #ffc2e6;
-  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size-dekstop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --title-line-height: 95.7px;
 
   --font-weight-bold: bold;
@@ -26,6 +19,8 @@
   --color-border: #353430;
   --color-header: #353430;
   --main-color-title: #353430;
+
+  --display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -34,7 +29,8 @@
     --page-font: 'IBM Plex Mono';
   
     --title-color: #ffc2e6;
-    --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --title-size-dekstop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --title-line-height: 95.7px;
   
     --font-weight-bold: bold;
@@ -49,5 +45,8 @@
     --color-border: #353430;
     --color-header: #353430;
     --main-color-title: #353430;
+
+    --display: none;
   }
+  
 }
