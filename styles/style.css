@@ -4,6 +4,7 @@
   background-size: cover;
   background-attachment: fixed;
   font-size: var(--main-size);
+  background-color: var(--page-color);
 }
 
 /* Шапка */
