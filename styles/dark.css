@@ -1,6 +1,7 @@
 :root.theme-dark {
   --page-image: url(../images/cover-image-dark.png);
   --page-font: 'IBM Plex Mono';
+  --page-color: #000028;
 
   --title-color: #db00ff;
   --title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

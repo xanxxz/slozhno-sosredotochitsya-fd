@@ -52,6 +52,7 @@ a {
 .title-decor {
   background-color: var(--accent-color);
   color: var(--accent-color-text);
+  font-size: var(--main-size);
 }
 
 .item-text {
