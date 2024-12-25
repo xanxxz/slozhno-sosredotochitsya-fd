@@ -389,11 +389,6 @@
     grid-column: span 1;
   }
 
-  .list__item-inline-size {
-    max-inline-size: 33%;
-    inline-size: 100%;
-  }
-
   .section-concentration {
     grid-template-columns: 315px 1fr;
 }
